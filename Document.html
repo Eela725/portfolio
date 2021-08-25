@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>Documentary page</title>
+</head>
+<link
+  rel="stylesheet"
+  href="D.css">
+<nav id="navbar">
+  <header>Java Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+    </li>
+   
+    <li><a class="nav-link" href="#Data_types">Data types</a></li>
+    <li>
+      <a class="nav-link" href="#if...else_statement">if...else statement</a>
+    </li>
+    <li><a class="nav-link" href="#while_statement">while statement</a></li>
+    <li>
+      <a class="nav-link" href="#Function_declarations"
+        >Function declarations</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+       JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1991, later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs.
+      </p>
+
+      <p>
+        Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+      </p>
+     
+    </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>There is no need to know any other language before moving on to Java. But you should know basics of programming.</p>
+
+      <ul>
+        <li>
+          Selection:If-Else logic to choose path or flow of execution.
+        </li>
+        <li>Sequence: Every programming language executes in a sequence. Line 1 will definitely execute before Line 2.</li>
+        <li>
+        Iteration: Loop Concept( While/For etc). To execute same statement/logic multiple times.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>JavaScript and Java</header>
+    <article>
+      <p>
+        JavaScript and Java are similar in some ways but fundamentally different
+        in some others. The JavaScript language resembles Java but does not have
+        Java's static typing and strong type checking. JavaScript follows most
+        Java expression syntax, naming conventions and basic control-flow
+        constructs which was the reason why it was renamed from LiveScript to
+        JavaScript.
+      </p>
+
+      <p>
+        In contrast to Java's compile-time system of classes built by
+        declarations, JavaScript supports a runtime system based on a small
+        number of data types representing numeric, Boolean, and string values.
+        JavaScript has a prototype-based object model instead of the more common
+        class-based object model. The prototype-based model provides dynamic
+        inheritance; that is, what is inherited can vary for individual objects.
+        JavaScript also supports functions without any special declarative
+        requirements. Functions can be properties of objects, executing as
+        loosely typed methods.
+      </p>
+      <p>
+        JavaScript is a very free-form language compared to Java. You do not
+        have to declare all variables, classes, and methods. You do not have to
+        be concerned with whether methods are public, private, or protected, and
+        you do not have to implement interfaces. Variables, parameters, and
+        function return types are not explicitly typed.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article>
+      A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a new programming language to a newbie.
+
+Let's explore how Java "Hello, World!" program works.
+      <code
+        >class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+      </code>
+
+    
+    </article>
+  </section>
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>
+     A Java variable is a piece of memory that can contain a data value. A variable thus has a data type. Data types are covered in more detail in the text on Java data types.
+    </p>
+    <p>
+    A Java variable is a piece of memory that can contain a data value. A variable thus has a data type. Data types are covered in more detail in the text on Java data types.
+    </p>
+   
+  </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Declaring variables</header>
+    <article>
+      <p>
+      In Java you declare a variable like this:
+     <code>type name ;</code> Instead of the word type, you write the data type of the variable. Similarly, instead of the word name you write the name you want the variable to have.
+      </p>
+      <p>
+        Here is an example declaring a variable named myVariable of type int<code>int myVariable;</code> 
+      </p>
+      <p>
+       Here are examples of how to declare variables of all the primitive data types in Java:<code> byte    myByte;
+short   myShort;
+char    myChar;
+int     myInt;
+long    myLong;
+float   myFloat;
+double  myDouble;</code> 
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <article>
+      <p>Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+</p>
+      <ul>
+        <li>
+          <p>Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.</p><p>There are 8 types of primitive data types:<p>
+            <ul>
+              <li>boolean data type
+              </li>
+               <li>byte data type
+              </li>
+               <li>char data type
+              </li>
+               <li>short data type
+              </li>
+               <li>int data type
+              </li>
+               <li>long data type
+              </li>
+               <li>float data type
+              </li>
+               <li>double data type
+              </li>
+          </ul>
+          </li>
+          
+            <li><p>
+             Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.</p>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="if...else_statement">
+    <header>if...else statement</header>
+    <article>
+     The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in Java.
+
+      <code>if(condition){  
+//code to be executed  
+}  </code>
+     The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
+     
+      <code>
+       if(condition){  
+//code if condition is true  
+}else{  
+//code if condition is false  
+}  
+      </code>
+      
+
+      <code
+        >//A Java Program to demonstrate the use of if-else statement.  
+//It is a program of odd and even number.  
+public class IfElseExample {  
+public static void main(String[] args) {  
+    //defining a variable  
+    int number=13;  
+    //Check if the number is divisible by 2 or not  
+    if(number%2==0){  
+        System.out.println("even number");  
+    }else{  
+        System.out.println("odd number");  
+    }  
+}  
+}  </code
+      >
+      
+    </article>
+  </section>
+  <section class="main-section" id="while_statement">
+    <header>while statement</header>
+    <article>
+     Loops in Java come into use when we need to repeatedly execute a block of statements.
+
+Java while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
+
+      <code>while (test_expression)
+{
+   // statements
+ 
+  update_expression;
+        }</code> <p>The various parts of the While loop are:</p>
+      <ul>
+        <li><p>Test Expression: In this expression we have to test the condition. If the condition evaluates to true then we will execute the body of the loop and go to update expression. Otherwise, we will exit from the while loop.
+          Example:</p><code> i <= 10 </code>
+          </li><li><p>Update Expression: After executing the loop body, this expression increments/decrements the loop variable by some value.
+        Example:</p><code>i++;</code></li>
+      </ul>
+      <p>This program will try to print “Hello World” 5 times.</p>
+      <code>// Java program to illustrate while loop.
+  
+class whileLoopDemo {
+    public static void main(String args[])
+    {
+        // initialization expression
+        int i = 1;
+  
+        // test expression
+        while (i < 6) {
+            System.out.println("Hello World");
+  
+            // update expression
+            i++;
+        }
+    }
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="Function_declarations">
+    <header>Function declarations</header>
+    <article>
+     In Java, all function definitions must be inside classes. We also call functions methods. Let's look at an example method
+<code>public class Main {
+    public static void foo() {
+        // Do something here
+    }
+  }</code>
+      <p>foo is a method we defined in class Main. Notice a few things about foo. </p><ul><li> static means this method belongs to the class Main and not to a specific instance of Main. Which means we can call the method from a different class like that Main.foo().</li>
+      <li> void means this method doesn't return a value. Methods can return a single value in Java and it has to be defined in the method declaration. However, you can use return by itself to exit the method.</li>
+      <li>This method doesn't get any arguments, but of course Java methods can get arguments as we'll see further on.</li>
+      </ul>
+      <p>I always like to say that arguments to Java methods are passed by value, although some might disagree with my choice of words, I find it the best way to explain and understand how it works exactly.
+
+By value means that arguments are copied when the method runs. Let's look at an example. </p><code> public void bar(int num1, int num2) {
+    ...
+}</code>
+      Here is a another place in the code, where bar is called<code>int a = 3;
+int b = 5;
+      bar(a, b); </code><p>You can picture in your head that when bar(a, b) is run, it's like in the beginning of bar the following two lines are written: </p><code> int num1 = a;
+int num2 = b;</code>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.w3schools.com/java/java_intro.asp"
+            target="_blank"
+            >W3Schools</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+</html>
